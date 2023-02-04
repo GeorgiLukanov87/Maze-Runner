@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+#exitBtn {
+    position: absolute;
+    right: 1%;
+    bottom: 4%;
+    border: 3px solid red;
+    padding: 15px;
+    background-color: gray;
+    border-radius: 15px;
+    font-size: 13px;
+    margin-bottom: 7px;
+    box-shadow: 1px 0px 20px rgb(248, 223, 223);
+}
+
+#exitBtn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: red;
+    padding: 15px;
+    transition: 250ms linear;
+}
+
+#box>img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(143, 145, 145);
+    background: url("/img/matrix.gif");
+    font-family: 'Press Start 2P', cursive;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+
+#gameOver {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: rgb(223, 248, 0);
+    font-size: 35px;
+    font-weight: bold;
+    background-color: black;
+    background: url("/img/bloody-background-vector-203245.jpg");
+    border: 15px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 170px 140px 140px 140px;
+    letter-spacing: 10px;
+    box-shadow: 1px 0px 20px rgb(251, 255, 0);
+}
+
+
+#win {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 25px;
+    background-color: green;
+    padding: 30px;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    color: blue;
+    letter-spacing: 2px;
+    box-shadow: 1px 2px 20px rgb(255, 255, 255);
+}
+
+#win:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    transition: 250ms linear;
+}
+
+.maze {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    background: url("/img/crates_study_x2.png");
+    background-size: contain;
+    position: absolute;
+    border-radius: 3px;
+}
+
+#maze1 {
+    top: 0%;
+    right: 48%;
+    width: 900px;
+}
+
+#maze2 {
+    top: 8%;
+    right: 48%;
+    height: 400px;
+}
+
+#maze3 {
+    top: 20%;
+    right: 58%;
+    width: 900px;
+}
+
+#maze4 {
+    top: 40%;
+    right: 53%;
+    width: 800px;
+}
+
+#maze5 {
+    top: 59%;
+    right: 39%;
+    width: 1400px;
+}
+
+#maze6 {
+    top: 9%;
+    right: 39%;
+    width: 100px;
+    height: 500px;
+}
+
+#maze7 {
+    top: 0%;
+    right: 32%;
+    width: 50px;
+    height: 800px;
+}
+
+#maze8 {
+    top: 80%;
+    right: 32%;
+    width: 1200px;
+}
+
+#maze9 {
+    top: 15%;
+    right: 11%;
+    width: 50px;
+    height: 906px;
+}
+
+#maze10 {
+    top: 0%;
+    right: 18%;
+    width: 50px;
+    height: 851px;
+}
+
+
+#maze11 {
+    top: 6%;
+    right: 25%;
+    width: 50px;
+    height: 1002px;
+}
+
+#maze12 {
+    top: 15%;
+    right: -1%;
+    width: 277px;
+    height: 246px;
+}
+
+#maze13 {
+    top: 37%;
+    right: -1%;
+    width: 277px;
+    height: 246px;
+}
+
+#maze14 {
+    top: 59%;
+    right: -1%;
+    width: 277px;
+    height: 246px;
+}
